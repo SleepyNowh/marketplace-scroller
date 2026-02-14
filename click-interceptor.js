@@ -92,7 +92,7 @@
     qrCode.innerHTML = '';
     
     const qrImg = document.createElement('img');
-    qrImg.src = `https:
+    qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(url)}`;
     qrImg.style.cssText = 'width: 180px; height: 180px; display: block;';
     qrCode.appendChild(qrImg);
     

@@ -27,7 +27,7 @@ async function checkForUpdates() {
     console.log('Checking for updates...');
     
     const response = await fetch(
-      `https:
+      `https://api.github.com/repos/${GITHUB_REPO}/releases/latest`,
       {
         headers: {
           'Accept': 'application/vnd.github.v3+json'
