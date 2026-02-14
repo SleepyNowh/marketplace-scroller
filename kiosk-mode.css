@@ -1,0 +1,36 @@
+
+div[role="banner"],
+div[role="navigation"],
+div[role="complementary"],
+div[data-pagelet="LeftRail"],
+div[data-pagelet="RightRail"] {
+  display: none !important;
+}
+
+div[data-pagelet="Marketplace"] > div > div:first-child {
+  display: none !important;
+}
+
+div[data-pagelet="Marketplace"] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[data-pagelet="Marketplace"] > div {
+  max-height: 350px !important;
+  overflow: hidden !important;
+}
+
+body {
+  zoom: 1.0;
+}
+
+body > div:first-child > div:first-child {
+  display: none !important;
+}
+
+body {
+  background: #f0f2f5 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
